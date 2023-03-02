@@ -1,0 +1,24 @@
+.history{
+	overflow:hidden;
+	border:1px solid #d3d3d3;
+	background:#fefefe;
+	width:30%;
+	border-radius:5px;
+}
+
+th, td {
+	padding:8px 18px 8px; 
+	text-align:center; 
+}
+
+td {
+	border-right:1px solid #e0e0e0;
+}
+
+.row:nth-child(2n + 1) {
+	background-color: rgb(244, 242, 247);
+ }
+
+th {
+	background-color:  rgb(220, 202, 237);
+}

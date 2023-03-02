@@ -10,9 +10,11 @@ import friends from "../assets/friends.json";
 import transactions from "../assets/transactions.json";
 import TransactionHistory from "./TransactionsHistory/TransactionsHistory";
 
+import css from './App.module.css';
+
 export default function App() {
   return (
-    <div>
+    <div className={css.body}>
       <Profile
         username={user.username}
         tag={user.tag}
@@ -25,7 +27,7 @@ export default function App() {
 		<Statistics title="Upload stats" stats={stats}></Statistics>
 		<FriendList friends={friends} />
 
-		<TransactionHistory transactions={transactions} />;
+		<TransactionHistory transactions={transactions} />
     </div>
   );
 }

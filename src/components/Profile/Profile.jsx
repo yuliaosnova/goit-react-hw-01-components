@@ -1,5 +1,4 @@
 import PropTypes from "prop-types";
-// import defaultImage from "src/assets/default.jpg"
 import css from './Profile.module.css';
 
 const Profile = ({ username, tag, location, avatar, followers, views, likes }) => {
